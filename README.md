@@ -37,7 +37,11 @@ As long as you don't change the salt, the same data will return the same return 
 All strings that can be interpreted by JavaScript can be used for the salt except for surrogate pairs.
 
 ## License
-Check your LICENSE file. 
+Please check LICENSE file.
+
+
+
+
 
 # Tsumuri式ID生成ライブラリ
 バニラJavaScriptでのID生成ライブラリ
