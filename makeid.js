@@ -22,7 +22,7 @@
 *
 *
 *---JAPANESE---
-* ライブラリ名:Tsumuri Type MakeID Library
+* ライブラリ名:Tsumuri式ID生成ライブラリ
 * コード作成者:Tsumuri
 * 著作権タイプ:Apache License 2.0
 *
