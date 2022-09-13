@@ -36,6 +36,12 @@ Any salt can be given. <br>
 As long as you don't change the salt, the same data will return the same return value. <br>
 All strings that can be interpreted by JavaScript can be used for the salt except for surrogate pairs.
 
+### Make it a daily ID
+```js
+let id = makeid("SomeText",8,"daily");
+```
+You can return the daily value by setting the salt to "daily".
+
 ## License
 Please check LICENSE file.
 
@@ -76,6 +82,12 @@ let id = makeid("SomeText",8,"Hello,World!");
 任意のソルトを与えることができます。<br>
 ソルトを変更しない限り、同一データでの返り値は変わりません。<br>
 ソルトにはサロゲートペアを除くJavaScriptで解釈可能なすべての文字列を利用できます。
+
+### 日替わりのIDにする
+```js
+let id = makeid("SomeText",8,"daily");
+```
+ソルトを"daily"にすることで、日替わりの値を返すことができます。
 
 ## ライセンス
 LICENSEファイルをご確認ください。<br>
